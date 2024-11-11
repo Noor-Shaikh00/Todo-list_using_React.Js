@@ -1,11 +1,11 @@
-*{
+* {
     justify-content: center;
     margin: 5px;
     padding: 0;
     box-sizing: border-box;
 }
 
-.App{
+.App {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,14 +15,14 @@
     font-family: Arial, sans-serif;
 }
 
-.todo-container{
+.todo-container {
     width: 100%;
     max-width: 400px;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #eee;
     border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f4f6f9; /* Light gray background */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .input-section {
@@ -32,36 +32,38 @@
 }
 
 input {
-    padding: 10px;
-    margin-right: 5px;
+    padding: 12px;
+    margin-right: 8px;
     width: 70%;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc; /* Light border for input */
     border-radius: 5px;
+    font-size: 16px;
 }
 
 button {
-    padding: 10px;
-    background-color: #ddd;
-    color: #aaa;
+    padding: 12px;
+    background-color: #f4b400; /* Warm yellow color for default button */
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: not-allowed;
+    font-size: 16px;
 }
 
 button:disabled {
-    background-color: #ddd;
-    color: #aaa;
+    background-color: #d1d1d1; /* Gray for disabled state */
+    color: #999;
     cursor: not-allowed;
 }
 
 button.active {
-    background-color: #007bff;
+    background-color: #34a853; /* Green for active button */
     color: white;
     cursor: pointer;
 }
 
 button.active:hover {
-    background-color: #0056b3;
+    background-color: #2c8c47; /* Darker green for hover */
 }
 
 ul {
@@ -70,26 +72,52 @@ ul {
 }
 
 li {
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: #ffffff; /* White background for list items */
     border: 1px solid #ddd;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 li button {
-    background-color: #dc3545;
-    padding: 5px;
+    background-color: #db4437; /* Red button for delete */
+    padding: 8px;
     color: white;
-    border:none;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 14px;
 }
+
 li button:hover {
-    background-color: #c82333;
+    background-color: #c1351d; /* Darker red for delete button hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .input-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .todo-container {
+        padding: 15px;
+        max-width: 95%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -112,3 +140,7 @@ li button:hover {
         padding: 8px;
     }
 }
+
+  
+   
+     
