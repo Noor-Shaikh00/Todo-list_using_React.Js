@@ -26,6 +26,7 @@
 }
 
 .input-section {
+    color: black;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
