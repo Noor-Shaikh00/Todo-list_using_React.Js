@@ -74,7 +74,7 @@ ul {
 li {
     padding: 12px;
     margin-bottom: 12px;
-    background-color: purple; /* White background for list items */
+    background-color: lightcyan; /* White background for list items */
     border: 1px solid #ddd;
     border-radius: 5px;
     display: flex;
