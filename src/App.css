@@ -91,3 +91,24 @@ li button {
 li button:hover {
     background-color: #c82333;
 }
+
+@media (max-width: 480px) {
+    .todo-container {
+        padding: 10px;
+        max-width: 90%;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    li {
+        padding: 8px;
+    }
+}
