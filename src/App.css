@@ -43,7 +43,7 @@ input {
 button {
     padding: 12px;
     background-color: #f4b400; /* Warm yellow color for default button */
-    color: white;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: not-allowed;
