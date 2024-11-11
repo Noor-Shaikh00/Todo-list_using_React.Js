@@ -1,0 +1,93 @@
+*{
+    justify-content: center;
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.todo-container{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin-right: 5px;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ddd;
+    color: #aaa;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+button:disabled {
+    background-color: #ddd;
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+button.active {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button.active:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: #dc3545;
+    padding: 5px;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+li button:hover {
+    background-color: #c82333;
+}
