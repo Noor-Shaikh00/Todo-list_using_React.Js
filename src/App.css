@@ -76,7 +76,7 @@ li {
     padding: 12px;
     margin-bottom: 12px;
     background-color: lightcyan; /* White background for list items */
-    border: 1px solid #ddd;
+    border: 1px solid #000;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
