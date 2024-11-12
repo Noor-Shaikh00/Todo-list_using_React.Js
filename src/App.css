@@ -87,7 +87,7 @@ li {
 li button {
     background-color: #db4437; /* Red button for delete */
     padding: 8px;
-    color: white;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
